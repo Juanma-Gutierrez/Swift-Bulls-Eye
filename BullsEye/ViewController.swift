@@ -38,9 +38,10 @@ class ViewController: UIViewController {
         scoreValue = initialPoints
         startNewRound()
         
+        // #imageLiteral( => para mostrar el icono de la imagen
         let thumbImageNormal = #imageLiteral(resourceName: "SliderThumb-Normal") // UIImage(named: "SliderThumb-Normal")
         slider.setThumbImage(thumbImageNormal, for: .normal)
-
+        
         let thumbImageHighlighted = #imageLiteral(resourceName: "SliderThumb-Highlighted") // UIImage(named: "SliderThumb-Highlighted")
         slider.setThumbImage(thumbImageHighlighted, for: .highlighted)
         
