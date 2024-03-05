@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		39541DEA2B8752D900211D82 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39541DE92B8752D900211D82 /* AboutViewController.swift */; };
 		39541DEC2B87563000211D82 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39541DEB2B87563000211D82 /* AuthorViewController.swift */; };
+		39D452AD2B9702AD00717946 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 39D452AC2B9702AD00717946 /* BullsEye.html */; };
 		39EC76292B85E3E3009D484E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC76282B85E3E3009D484E /* AppDelegate.swift */; };
 		39EC762B2B85E3E3009D484E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC762A2B85E3E3009D484E /* SceneDelegate.swift */; };
 		39EC762D2B85E3E3009D484E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC762C2B85E3E3009D484E /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		39541DE92B8752D900211D82 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		39541DEB2B87563000211D82 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
+		39D452AC2B9702AD00717946 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		39EC76252B85E3E3009D484E /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EC76282B85E3E3009D484E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39EC762A2B85E3E3009D484E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		39EC76272B85E3E3009D484E /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				39D452AC2B9702AD00717946 /* BullsEye.html */,
 				39541DEB2B87563000211D82 /* AuthorViewController.swift */,
 				39EC76282B85E3E3009D484E /* AppDelegate.swift */,
 				39EC762A2B85E3E3009D484E /* SceneDelegate.swift */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39EC76352B85E3E9009D484E /* LaunchScreen.storyboard in Resources */,
+				39D452AD2B9702AD00717946 /* BullsEye.html in Resources */,
 				39EC76322B85E3E9009D484E /* Assets.xcassets in Resources */,
 				39EC76302B85E3E3009D484E /* Main.storyboard in Resources */,
 			);
@@ -419,6 +423,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Viewnext;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -445,6 +451,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Viewnext;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

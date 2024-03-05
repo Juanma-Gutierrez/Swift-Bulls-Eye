@@ -7,6 +7,20 @@
     {
       "filename" : "Button-Normal@2x.png",
       "idiom" : "universal",
+      "resizing" : {
+        "cap-insets" : {
+          "bottom" : 37,
+          "left" : 16,
+          "right" : 16,
+          "top" : 36
+        },
+        "center" : {
+          "height" : 1,
+          "mode" : "stretch",
+          "width" : 1
+        },
+        "mode" : "9-part"
+      },
       "scale" : "2x"
     },
     {
