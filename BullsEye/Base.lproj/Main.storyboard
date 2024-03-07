@@ -143,7 +143,6 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY" userLabel="Safe area"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="dgJ-1S-i5f" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8vp-YO-C3v"/>
@@ -236,6 +235,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="jsK-Pj-21s"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Rsb-oy-azy" firstAttribute="centerY" secondItem="kLi-v2-etZ" secondAttribute="centerY" id="5Y4-SL-1Oc"/>
@@ -299,6 +299,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="ICx-4Y-5vS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="wZ0-2r-6fI" firstAttribute="leading" secondItem="cVG-zu-N14" secondAttribute="leading" id="5N4-dS-24Z"/>
