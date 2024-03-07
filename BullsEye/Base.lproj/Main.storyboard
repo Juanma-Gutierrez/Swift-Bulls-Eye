@@ -143,6 +143,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="c0W-8K-4cG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="dgJ-1S-i5f" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8vp-YO-C3v"/>
